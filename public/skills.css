@@ -1,0 +1,12 @@
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    display: block;
+    width: auto;
+    height: 100px;
+    object-fit: cover; /*magic*/
+    padding: 50px;
+}

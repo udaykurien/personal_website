@@ -21,6 +21,9 @@ app.get("/resume", function(req, res){
 app.get("/publications", function(req, res){
   res.render("publications");
 });
+app.get("/skills", function(req, res){
+  res.render("skills");
+});
 
 app.listen(3000, function(){
      console.log("server is running on port" + 3000);});
