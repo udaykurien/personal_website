@@ -1,0 +1,22 @@
+.publications {
+    margin: 10px;
+    padding: 20px;
+    border:2px solid black;
+    border-radius: 5px ;
+    text-align: justify;
+    background-color: white;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+time {
+    padding-bottom: 5px;
+    display: block;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
