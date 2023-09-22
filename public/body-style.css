@@ -5,3 +5,7 @@ p#about {
     top: 50%;
     width: 100%;
 }
+
+html,body {
+    height: 100%;
+}
