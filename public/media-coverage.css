@@ -1,0 +1,36 @@
+.media-features-collection a:visited,
+.media-features-collection a:hover,
+.media-features-collection a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.media-features-collection {
+    text-align: justify;
+}
+
+.media-features-collection img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.media-features-collection ul {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+    /* Set columns only for larger screens */
+    column-count: 2;
+    column-gap: 20px; /* Adjust the gap as needed */
+}
+
+.media-features-collection li {
+    margin: 10px; 
+    padding: 10px; 
+    background: linear-gradient(to bottom, white, aliceblue);
+} 
+
+@media (max-width: 1900px) {
+    .media-features-collection ul {
+        column-count: 1;
+    }
+}

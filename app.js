@@ -5,7 +5,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
 var express = require('express');
-var app = express();
+
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname + '/public')));
 
@@ -23,6 +23,9 @@ app.get("/publications", function(req, res){
 });
 app.get("/skills", function(req, res){
   res.render("skills");
+});
+app.get("/media-coverage", function(req, res){
+  res.render("media-coverage");
 });
 
 app.listen(3000, function(){
