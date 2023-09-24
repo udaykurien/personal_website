@@ -17,10 +17,9 @@
 
 .media-features-collection ul {
     list-style-type: none;
-    padding: 0; /* Remove default padding */
-    /* Set columns only for larger screens */
+    padding: 0;
     column-count: 2;
-    column-gap: 20px; /* Adjust the gap as needed */
+    column-gap: 20px; 
 }
 
 .media-features-collection li {
