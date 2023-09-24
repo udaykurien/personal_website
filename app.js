@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 // Serve static files from the public directory
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Include your routes
+// Include routes
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);
 
