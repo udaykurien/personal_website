@@ -29,4 +29,9 @@ router.get("/media-coverage", function(req, res){
     res.render("media-coverage");
 });
 
+router.get("/projects", function(req, res){
+    res.render("projects");
+});
+
+
 module.exports = router;  

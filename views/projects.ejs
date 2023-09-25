@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="nav-style.css">
+        <link rel="stylesheet" href="projects.css">
+        <title> An Atmospheric Chemist </title>
+    </head>
+    <body>
+
+        <%- include ('partials/header') %>
+        
+        <ul>
+            <li class="projects">
+                <h3> Cloud physics simulations </h3>
+                <p> Bash scripts are used to modify the parameters (number of droplets, liquid water content and turbulence) of a full physics cloud simulation developed at McGill university in Fortran. The model uses MPI to implement parallelism. Bash scripts were authored to orchestrate the concurrent execution of 300 model instances, each requiring 64 Intel Xeon CPUs, on ComputeCanada's high performance clusters. </p>
+            </li>
+            <li class="projects">
+                <h3> Search from images </h3>
+                <a href="https://github.com/udaykurien/Face-Text-OpenCV" target="_blank"> Project link </a>
+                <p>This project uses the Twitter API to retrieve tweets matching the given search parameters. The tweet sentiments are classified using Facebook's pretrained NLP model RoBERTa. The results are summarized in a dasboard built in python.</p>
+                <img src="pictures/nlp_project.png">
+            </li>
+            <li class="projects">
+                <h3> Twitter sentiment analysis </h3>
+                <a href="https://github.com/udaykurien/twitter-portfolio-project" target="_blank"> Project link </a>
+                <p> This project uses PyTesseract and OpenCV to scan images and extract faces from those pages that contain matching text. The facial images, and their associated files are compiled into a report. </p>
+                <img src="pictures/opencv_project.png
+                ">
+            </li>
+        </ul>
+
+    </body>
+
+</html>
