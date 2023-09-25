@@ -33,5 +33,8 @@ router.get("/projects", function(req, res){
     res.render("projects");
 });
 
+router.get("/contact", function(req, res){
+    res.render("contact");
+});
 
 module.exports = router;  
