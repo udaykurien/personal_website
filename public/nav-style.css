@@ -33,6 +33,7 @@ body {
 
 #navigation01 li{
     display: inline-block;
+    vertical-align: middle;
 }
 
 #navigation01 a { 
@@ -49,4 +50,22 @@ nav {
     color: black;
     background-color: #ADD8E6;
     transition: all 0.25s ease-in-out 30ms;
+}
+
+.filter-color{
+    filter: invert(89%) sepia(9%) saturate(1101%) hue-rotate(161deg) brightness(95%) contrast(90%);
+}
+
+#navigation01 img {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    /* height: 1.1em;  */
+  }
+
+.icon {
+    vertical-align: middle; 
+    width: 20px; 
+    height: 20px; 
+    margin-left: 20px;
 }
